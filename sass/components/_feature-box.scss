@@ -1,0 +1,40 @@
+.features-box {
+    background-color: rgba($color-white,.9);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 0 1.5rem 4rem rgba($color-black,.15);
+    transform: transform .3s;
+    margin: 0 1rem;
+    -webkit-box-shadow: 7px 5px 50px 6.5px rgba(0,13,5,1);
+    -moz-box-shadow: 7px 5px 50px 6.5px rgba(0,13,5,1);
+    box-shadow: 7px 5px 50px 6.5px rgba(0,13,5,1);
+
+
+    &__icon{
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        display: inline-block;
+
+        background-image: linear-gradient(to right,
+            $color-primary-light,
+            $color-primary-dark);
+        letter-spacing: 2px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.02);
+        border: 1px solid transparent !important;
+        -webkit-box-shadow: 14px 10px 111px -13px rgba(0,13,5,1);
+        -moz-box-shadow: 14px 10px 111px -13px rgba(0,13,5,1);
+        box-shadow: 14px 10px 111px -13px rgba(0,13,5,1);
+    }
+    // &__text{
+        
+    // }
+
+
+}
